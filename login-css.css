@@ -1,0 +1,66 @@
+/* parteee de loginnn */
+
+.fondo {
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    position: relative;
+    opacity: 0.3;
+    background-repeat: no-repeat;
+}
+.principal {
+    width: 200px;
+    display: grid;
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.botones { 
+    display:flex;
+}
+button{
+    background-color:rgba(248, 149, 248, 0.966) ;
+    color: white;
+    border-color: black;
+}
+.parte {
+    margin-bottom: 15px;
+    
+}
+
+
+@media screen and (max-width:700px) {
+    .fondo {
+        top: 35px;
+        left: 10%;
+        
+        position: relative;
+        opacity: 0.3;
+        
+    }
+    .principal {
+        width: 200px;
+        display: grid;
+        margin: auto;
+        position: absolute;
+        top: 15%;
+        left: 30%;
+    }
+    button{
+        background-color:rgba(248, 149, 248, 0.966) ;
+        color: white;
+        border-color: black;
+    }
+    
+}
+
+
+.botones { 
+    display:flex;
+}
+
+.parte {
+    margin-bottom: 15px;
+}
